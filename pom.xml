@@ -7,6 +7,14 @@
 	<version>0.0.3-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>rahulautamationqa1444</name>
+     <url>https://github.com/rahulautamationqa1444/rahulrepo</url>
+   </repository>
+</distributionManagement>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -19,7 +27,7 @@
 					</includes>
 				</configuration>
 			</plugin>
-			<plugin>
+			<!-- <plugin>
 				<artifactId>maven-jar-plugin</artifactId>
 				<version>3.2.0</version>
 				<executions>
@@ -32,9 +40,9 @@
 				<configuration>
 					<finalName>ProjectJARs/project</finalName>
 				</configuration>
-			</plugin>
+			</plugin> -->
 			
-			 <!--  <plugin>
+			  <plugin>
 		<groupId>org.apache.maven.plugins</groupId>
 		<artifactId>maven-source-plugin</artifactId>
 		<executions>
@@ -46,7 +54,7 @@
 			</execution>
 		</executions>
 		
-	   </plugin> -->
+	   </plugin>
 		</plugins>
 	</build>
 
